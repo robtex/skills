@@ -5,7 +5,11 @@ Claude Code plugin for DNS, IP intelligence, Bitcoin blockchain, Lightning Netwo
 ## Install
 
 ```bash
-/plugin install robtex/claude-plugins
+# Step 1: Add the marketplace
+/plugin marketplace add robtex/claude-plugins
+
+# Step 2: Install the plugin
+/plugin install robtex@robtex-plugins
 ```
 
 ## Skills

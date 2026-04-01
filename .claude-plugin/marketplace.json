@@ -1,0 +1,16 @@
+{
+  "name": "robtex-plugins",
+  "owner": {
+    "name": "Robtex",
+    "email": "info@robtex.com",
+    "url": "https://robtex.com"
+  },
+  "plugins": [
+    {
+      "name": "robtex",
+      "source": ".",
+      "description": "DNS, IP, Bitcoin, Lightning, and threat intelligence — 50+ tools powered by Robtex",
+      "version": "1.0.1"
+    }
+  ]
+}
