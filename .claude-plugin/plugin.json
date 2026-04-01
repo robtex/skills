@@ -1,0 +1,12 @@
+{
+  "name": "robtex",
+  "description": "DNS, IP intelligence, AS routing, domain reputation, Bitcoin blockchain, Lightning Network, and threat intelligence. 50+ tools for network analysis, crypto investigation, and security research.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Robtex",
+    "url": "https://robtex.com"
+  },
+  "homepage": "https://robtex.com",
+  "repository": "https://github.com/robtex/claude-plugins",
+  "license": "MIT"
+}
