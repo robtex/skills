@@ -11,7 +11,7 @@
       "name": "robtex",
       "source": "./plugins/robtex",
       "description": "DNS, IP, Bitcoin, Lightning, and threat intelligence — 50+ tools powered by Robtex",
-      "version": "1.0.2"
+      "version": "1.0.3"
     }
   ]
 }

@@ -5,8 +5,8 @@ Claude Code plugin for DNS, IP intelligence, Bitcoin blockchain, Lightning Netwo
 ## Install
 
 ```bash
-# Step 1: Add the marketplace
-/plugin marketplace add robtex/claude-plugins
+# Step 1: Add the marketplace (full GitHub URL required)
+/plugin marketplace add https://github.com/robtex/claude-plugins
 
 # Step 2: Install the plugin
 /plugin install robtex@robtex-plugins
@@ -25,7 +25,7 @@ Claude Code plugin for DNS, IP intelligence, Bitcoin blockchain, Lightning Netwo
 
 ## What's included
 
-The plugin connects to `mcp.robtex.com` which provides 50+ tools:
+The plugin connects to [mcp.robtex.com](https://mcp.robtex.com/mcp) which provides 50+ tools:
 
 - **DNS** (18 tools) — forward/reverse lookups, passive DNS, per-record-type queries
 - **IP/AS** (10 tools) — geolocation, reputation, BGP routing, AS info, MAC vendor lookup
@@ -57,13 +57,15 @@ The plugin connects to `mcp.robtex.com` which provides 50+ tools:
 /robtex:email-check admin@example.com
 ```
 
-## Manual MCP setup
+## Alternative: Manual MCP setup
 
 If you prefer to add the MCP server directly without installing the plugin:
 
 ```bash
 claude mcp add --transport http robtex https://mcp.robtex.com/mcp
 ```
+
+This gives you all 50+ tools but without the curated skills above.
 
 ## Links
 
