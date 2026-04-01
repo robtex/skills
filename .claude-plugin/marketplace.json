@@ -1,4 +1,5 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "robtex-plugins",
   "owner": {
     "name": "Robtex",
@@ -8,9 +9,9 @@
   "plugins": [
     {
       "name": "robtex",
-      "source": ".",
+      "source": "./plugins/robtex",
       "description": "DNS, IP, Bitcoin, Lightning, and threat intelligence — 50+ tools powered by Robtex",
-      "version": "1.0.1"
+      "version": "1.0.2"
     }
   ]
 }
