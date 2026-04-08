@@ -1,6 +1,9 @@
 ---
-name: network-map
+name: robtex-network-map
 description: "Map an autonomous system or network — prefixes, routing, WHOIS, and related infrastructure"
+version: 1.0.3
+author: Robtex
+homepage: https://robtex.com
 ---
 
 # Network Map

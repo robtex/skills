@@ -4,24 +4,38 @@ Claude Code plugin for DNS, IP intelligence, Bitcoin blockchain, Lightning Netwo
 
 ## Install
 
+### Option 1: Skills CLI (universal — works with Claude Code, Cursor, VS Code, Codex, and more)
+
 ```bash
-# Step 1: Add the marketplace (full GitHub URL required)
-/plugin marketplace add https://github.com/robtex/claude-plugins
+npx skills add robtex/skills
+```
+
+### Option 2: Claude Code native plugin
+
+```bash
+# Step 1: Add the marketplace
+/plugin marketplace add https://github.com/robtex/skills
 
 # Step 2: Install the plugin
 /plugin install robtex@robtex-plugins
+```
+
+### Option 3: Direct MCP server (no skills, just tools)
+
+```bash
+claude mcp add --transport http robtex https://mcp.robtex.com/mcp
 ```
 
 ## Skills
 
 | Skill | Usage | Description |
 |-------|-------|-------------|
-| `/robtex:investigate` | `/robtex:investigate 8.8.8.8` | Full investigation — DNS, IP intel, reputation, threats, routing |
-| `/robtex:dns` | `/robtex:dns example.com` | DNS records, passive DNS history, infrastructure |
-| `/robtex:crypto` | `/robtex:crypto bc1q...` | Bitcoin address/tx/block lookup, Lightning node analysis |
-| `/robtex:threat-scan` | `/robtex:threat-scan evil.com` | Blocklist scan (100+ DNSBLs), reputation, threat feeds |
-| `/robtex:network-map` | `/robtex:network-map AS15169` | AS prefixes, routing, WHOIS, network mapping |
-| `/robtex:email-check` | `/robtex:email-check user@example.com` | SMTP verification, SPF/DMARC, disposable detection |
+| `robtex-investigate` | `/robtex-investigate 8.8.8.8` | Full investigation — DNS, IP intel, reputation, threats, routing |
+| `robtex-dns` | `/robtex-dns example.com` | DNS records, passive DNS history, infrastructure |
+| `robtex-crypto` | `/robtex-crypto bc1q...` | Bitcoin address/tx/block lookup, Lightning node analysis |
+| `robtex-threat-scan` | `/robtex-threat-scan evil.com` | Blocklist scan (100+ DNSBLs), reputation, threat feeds |
+| `robtex-network-map` | `/robtex-network-map AS15169` | AS prefixes, routing, WHOIS, network mapping |
+| `robtex-email-check` | `/robtex-email-check user@example.com` | SMTP verification, SPF/DMARC, disposable detection |
 
 ## What's included
 
@@ -39,33 +53,23 @@ The plugin connects to [mcp.robtex.com](https://mcp.robtex.com/mcp) which provid
 
 ```
 # Investigate a suspicious IP
-/robtex:investigate 185.220.101.34
+/robtex-investigate 185.220.101.34
 
 # Check DNS for a domain
-/robtex:dns cloudflare.com
+/robtex-dns cloudflare.com
 
 # Look up a Bitcoin address
-/robtex:crypto 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
+/robtex-crypto 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa
 
 # Scan for threats
-/robtex:threat-scan badactor.com 192.168.1.1
+/robtex-threat-scan badactor.com 192.168.1.1
 
 # Map Google's network
-/robtex:network-map AS15169
+/robtex-network-map AS15169
 
 # Verify an email
-/robtex:email-check admin@example.com
+/robtex-email-check admin@example.com
 ```
-
-## Alternative: Manual MCP setup
-
-If you prefer to add the MCP server directly without installing the plugin:
-
-```bash
-claude mcp add --transport http robtex https://mcp.robtex.com/mcp
-```
-
-This gives you all 50+ tools but without the curated skills above.
 
 ## Links
 

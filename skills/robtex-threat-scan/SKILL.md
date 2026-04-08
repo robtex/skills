@@ -1,6 +1,9 @@
 ---
-name: threat-scan
+name: robtex-threat-scan
 description: "Threat intelligence scan — check IPs and domains against 100+ blocklists, reputation databases, and threat feeds"
+version: 1.0.3
+author: Robtex
+homepage: https://robtex.com
 ---
 
 # Threat Intelligence Scan

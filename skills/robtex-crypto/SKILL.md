@@ -1,6 +1,9 @@
 ---
-name: crypto
+name: robtex-crypto
 description: "Bitcoin and Lightning Network analysis — address balances, transaction tracing, block inspection, Lightning node/channel data, peer recommendations"
+version: 1.0.3
+author: Robtex
+homepage: https://robtex.com
 ---
 
 # Crypto Analysis

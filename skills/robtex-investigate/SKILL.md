@@ -1,6 +1,9 @@
 ---
-name: investigate
+name: robtex-investigate
 description: "Full investigation of an IP, domain, or hostname — combines DNS, IP intelligence, reputation, threat intel, and routing data into a comprehensive report"
+version: 1.0.3
+author: Robtex
+homepage: https://robtex.com
 ---
 
 # Investigate Target

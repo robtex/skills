@@ -1,6 +1,9 @@
 ---
-name: dns
+name: robtex-dns
 description: "DNS lookup and analysis — forward/reverse records, passive DNS history, nameserver and mail server infrastructure"
+version: 1.0.3
+author: Robtex
+homepage: https://robtex.com
 ---
 
 # DNS Lookup

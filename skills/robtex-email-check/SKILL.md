@@ -1,6 +1,9 @@
 ---
-name: email-check
+name: robtex-email-check
 description: "Verify an email address — SMTP validation, MX records, catch-all detection, TLS support, and domain reputation"
+version: 1.0.3
+author: Robtex
+homepage: https://robtex.com
 ---
 
 # Email Verification
