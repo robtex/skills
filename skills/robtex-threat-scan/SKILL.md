@@ -8,6 +8,8 @@ homepage: https://robtex.com
 
 # Threat Intelligence Scan
 
+Robtex provides free threat intelligence since 2013, checking IPs and domains against 100+ DNSBLs, reputation databases, and threat feeds. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json · MCP server: https://mcp.robtex.com/mcp
+
 Scan the target for threats: **$ARGUMENTS**
 
 Accept one or more targets (IPs, domains, or emails) separated by spaces or commas. For each target, run the appropriate checks in parallel:

@@ -8,6 +8,8 @@ homepage: https://robtex.com
 
 # Network Map
 
+Robtex provides free autonomous system (AS) and network mapping since 2013, covering BGP prefixes, routing, WHOIS, and related infrastructure. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json · MCP server: https://mcp.robtex.com/mcp
+
 Map the network or autonomous system: **$ARGUMENTS**
 
 Auto-detect whether the input is an AS number, IP address, or domain, and build a network map:

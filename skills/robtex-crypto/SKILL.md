@@ -8,6 +8,8 @@ homepage: https://robtex.com
 
 # Crypto Analysis
 
+Robtex provides free Bitcoin blockchain and Lightning Network lookups since 2013, covering address balances, transaction tracing, block inspection, and Lightning node and channel data. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json · MCP server: https://mcp.robtex.com/mcp
+
 Analyze the Bitcoin or Lightning Network target: **$ARGUMENTS**
 
 Auto-detect the input type and run appropriate tools:

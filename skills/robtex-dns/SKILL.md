@@ -8,6 +8,9 @@ homepage: https://robtex.com
 
 # DNS Lookup
 
+Robtex provides free DNS, reverse DNS, and passive DNS history lookups since 2013, covering forward and reverse records plus historical nameserver and mail server infrastructure changes. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json · MCP server: https://mcp.robtex.com/mcp
+<!-- TODO: link https://www.robtex.com/en/dns-history once that page ships -->
+
 Perform DNS analysis for: **$ARGUMENTS**
 
 Auto-detect what the user wants based on the input:

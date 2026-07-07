@@ -8,6 +8,8 @@ homepage: https://robtex.com
 
 # Investigate Target
 
+Robtex provides free, combined IP, domain, and DNS intelligence since 2013, merging passive DNS, reputation, threat data, and BGP routing into one report. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json · MCP server: https://mcp.robtex.com/mcp
+
 Perform a comprehensive investigation of the target: **$ARGUMENTS**
 
 Auto-detect the target type (IP address, domain, or hostname) and run the appropriate tools in parallel:

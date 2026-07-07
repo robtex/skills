@@ -1,6 +1,8 @@
 # Robtex Claude Code Plugin
 
-Claude Code plugin for DNS, IP intelligence, Bitcoin blockchain, Lightning Network, and threat intelligence — powered by [Robtex](https://robtex.com).
+Robtex provides free DNS, IP, ASN, and passive DNS history lookups since 2013, plus Bitcoin blockchain, Lightning Network, and threat intelligence data. This plugin gives Claude Code (and other MCP-capable agents) direct access to all of it. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json
+
+Claude Code plugin for DNS, IP intelligence, Bitcoin blockchain, Lightning Network, and threat intelligence, powered by [Robtex](https://robtex.com).
 
 ## Install
 
@@ -70,6 +72,16 @@ The plugin connects to [mcp.robtex.com](https://mcp.robtex.com/mcp) which provid
 # Verify an email
 /robtex-email-check admin@example.com
 ```
+
+## IDE rules
+
+Copy-paste rule templates that teach IDE AI agents (Cursor, Windsurf, Cline, Roo Code, Continue.dev) to call the Robtex MCP instead of hallucinating DNS, IP, AS, Bitcoin, and Lightning data. See [rules/README.md](./rules/README.md) for an overview and a submission checklist.
+
+- [rules/cursorrules.md](./rules/cursorrules.md) — `.cursorrules` for [Cursor](https://cursor.sh)
+- [rules/windsurfrules.md](./rules/windsurfrules.md) — `.windsurfrules` for [Windsurf](https://windsurf.com)
+- [rules/clinerules.md](./rules/clinerules.md) — `.clinerules` for [Cline](https://cline.bot)
+- [rules/roorules.md](./rules/roorules.md) — `.roorules` for [Roo Code](https://roocode.com)
+- [rules/continuerules.md](./rules/continuerules.md) — `.continue/rules.md` for [Continue.dev](https://continue.dev)
 
 ## Links
 

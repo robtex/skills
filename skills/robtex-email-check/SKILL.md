@@ -8,6 +8,8 @@ homepage: https://robtex.com
 
 # Email Verification
 
+Robtex provides free email address verification since 2013, checking SMTP validity, MX records, catch-all detection, TLS support, and domain reputation. Full site: https://www.robtex.com/ · API docs: https://freeapi.robtex.com/api-docs.json · MCP server: https://mcp.robtex.com/mcp
+
 Verify the email address: **$ARGUMENTS**
 
 Run these checks in parallel:
